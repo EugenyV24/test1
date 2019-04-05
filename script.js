@@ -1,0 +1,58 @@
+'use sctrict';
+
+
+
+var number = 5;
+var string = "hello";
+var sym = Symbol();
+var boolean = true;
+null;
+undefined;
+var obj = {};
+
+
+console.log(4 / 0);
+console.log('string' * 9)
+
+let something;
+console.log(something);
+
+let persone = {
+    name: "Johnny",
+    age: 25,
+    isMarried: false
+};
+
+console.log(persone["name"]);
+
+let arr = ['plun.png', 'orange.jpg', 'apple.bmp'];
+
+console.log(arr[0]);
+
+//alert("hello world");
+
+//let answer = confirm("are you here?");
+
+//console.log(answer);
+
+//let answer = +prompt("Есть ли вам 18?", "ДА");
+
+//console.log(typeof(answer));
+
+//console.log("arr" + "- object");
+//console.log(4 + "-object");
+
+let incr = 10;
+decr = 10;
+
+
+console.log(incr++);
+console.log(decr--);
+
+console.log(5 % 2);
+console.log("2" === 2);
+
+let isChecked = false,
+    isClose = false;
+
+console.log(isChecked || !isClose);
